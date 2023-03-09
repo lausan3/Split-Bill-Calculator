@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		924455C229BA42470005F82C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924455C129BA42470005F82C /* AppDelegate.swift */; };
+		924455C429BA42470005F82C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924455C329BA42470005F82C /* SceneDelegate.swift */; };
+		924455C629BA42470005F82C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924455C529BA42470005F82C /* ViewController.swift */; };
+		924455C929BA42470005F82C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 924455C729BA42470005F82C /* Main.storyboard */; };
+		924455CB29BA42480005F82C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 924455CA29BA42480005F82C /* Assets.xcassets */; };
+		924455CE29BA42480005F82C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 924455CC29BA42480005F82C /* LaunchScreen.storyboard */; };
+		924455D929BA42480005F82C /* Split_Bill_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924455D829BA42480005F82C /* Split_Bill_CalculatorTests.swift */; };
+		924455E329BA42480005F82C /* Split_Bill_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924455E229BA42480005F82C /* Split_Bill_CalculatorUITests.swift */; };
+		924455E529BA42480005F82C /* Split_Bill_CalculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924455E429BA42480005F82C /* Split_Bill_CalculatorUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		924455D529BA42480005F82C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 924455B629BA42460005F82C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 924455BD29BA42460005F82C;
+			remoteInfo = "Split Bill Calculator";
+		};
+		924455DF29BA42480005F82C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 924455B629BA42460005F82C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 924455BD29BA42460005F82C;
+			remoteInfo = "Split Bill Calculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		924455BE29BA42470005F82C /* Split Bill Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Split Bill Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		924455C129BA42470005F82C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		924455C329BA42470005F82C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		924455C529BA42470005F82C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		924455C829BA42470005F82C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		924455CA29BA42480005F82C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		924455CD29BA42480005F82C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		924455CF29BA42480005F82C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		924455D429BA42480005F82C /* Split Bill CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Split Bill CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		924455D829BA42480005F82C /* Split_Bill_CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Split_Bill_CalculatorTests.swift; sourceTree = "<group>"; };
+		924455DE29BA42480005F82C /* Split Bill CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Split Bill CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		924455E229BA42480005F82C /* Split_Bill_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Split_Bill_CalculatorUITests.swift; sourceTree = "<group>"; };
+		924455E429BA42480005F82C /* Split_Bill_CalculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Split_Bill_CalculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		924455BB29BA42460005F82C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		924455D129BA42480005F82C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		924455DB29BA42480005F82C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		924455B529BA42460005F82C = {
+			isa = PBXGroup;
+			children = (
+				924455C029BA42470005F82C /* Split Bill Calculator */,
+				924455D729BA42480005F82C /* Split Bill CalculatorTests */,
+				924455E129BA42480005F82C /* Split Bill CalculatorUITests */,
+				924455BF29BA42470005F82C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		924455BF29BA42470005F82C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				924455BE29BA42470005F82C /* Split Bill Calculator.app */,
+				924455D429BA42480005F82C /* Split Bill CalculatorTests.xctest */,
+				924455DE29BA42480005F82C /* Split Bill CalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		924455C029BA42470005F82C /* Split Bill Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				924455C129BA42470005F82C /* AppDelegate.swift */,
+				924455C329BA42470005F82C /* SceneDelegate.swift */,
+				924455C529BA42470005F82C /* ViewController.swift */,
+				924455C729BA42470005F82C /* Main.storyboard */,
+				924455CA29BA42480005F82C /* Assets.xcassets */,
+				924455CC29BA42480005F82C /* LaunchScreen.storyboard */,
+				924455CF29BA42480005F82C /* Info.plist */,
+			);
+			path = "Split Bill Calculator";
+			sourceTree = "<group>";
+		};
+		924455D729BA42480005F82C /* Split Bill CalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				924455D829BA42480005F82C /* Split_Bill_CalculatorTests.swift */,
+			);
+			path = "Split Bill CalculatorTests";
+			sourceTree = "<group>";
+		};
+		924455E129BA42480005F82C /* Split Bill CalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				924455E229BA42480005F82C /* Split_Bill_CalculatorUITests.swift */,
+				924455E429BA42480005F82C /* Split_Bill_CalculatorUITestsLaunchTests.swift */,
+			);
+			path = "Split Bill CalculatorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		924455BD29BA42460005F82C /* Split Bill Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 924455E829BA42480005F82C /* Build configuration list for PBXNativeTarget "Split Bill Calculator" */;
+			buildPhases = (
+				924455BA29BA42460005F82C /* Sources */,
+				924455BB29BA42460005F82C /* Frameworks */,
+				924455BC29BA42460005F82C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Split Bill Calculator";
+			productName = "Split Bill Calculator";
+			productReference = 924455BE29BA42470005F82C /* Split Bill Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		924455D329BA42480005F82C /* Split Bill CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 924455EB29BA42480005F82C /* Build configuration list for PBXNativeTarget "Split Bill CalculatorTests" */;
+			buildPhases = (
+				924455D029BA42480005F82C /* Sources */,
+				924455D129BA42480005F82C /* Frameworks */,
+				924455D229BA42480005F82C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				924455D629BA42480005F82C /* PBXTargetDependency */,
+			);
+			name = "Split Bill CalculatorTests";
+			productName = "Split Bill CalculatorTests";
+			productReference = 924455D429BA42480005F82C /* Split Bill CalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		924455DD29BA42480005F82C /* Split Bill CalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 924455EE29BA42480005F82C /* Build configuration list for PBXNativeTarget "Split Bill CalculatorUITests" */;
+			buildPhases = (
+				924455DA29BA42480005F82C /* Sources */,
+				924455DB29BA42480005F82C /* Frameworks */,
+				924455DC29BA42480005F82C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				924455E029BA42480005F82C /* PBXTargetDependency */,
+			);
+			name = "Split Bill CalculatorUITests";
+			productName = "Split Bill CalculatorUITests";
+			productReference = 924455DE29BA42480005F82C /* Split Bill CalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		924455B629BA42460005F82C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					924455BD29BA42460005F82C = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					924455D329BA42480005F82C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 924455BD29BA42460005F82C;
+					};
+					924455DD29BA42480005F82C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 924455BD29BA42460005F82C;
+					};
+				};
+			};
+			buildConfigurationList = 924455B929BA42460005F82C /* Build configuration list for PBXProject "Split Bill Calculator" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 924455B529BA42460005F82C;
+			productRefGroup = 924455BF29BA42470005F82C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				924455BD29BA42460005F82C /* Split Bill Calculator */,
+				924455D329BA42480005F82C /* Split Bill CalculatorTests */,
+				924455DD29BA42480005F82C /* Split Bill CalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		924455BC29BA42460005F82C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				924455CE29BA42480005F82C /* LaunchScreen.storyboard in Resources */,
+				924455CB29BA42480005F82C /* Assets.xcassets in Resources */,
+				924455C929BA42470005F82C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		924455D229BA42480005F82C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		924455DC29BA42480005F82C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		924455BA29BA42460005F82C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				924455C629BA42470005F82C /* ViewController.swift in Sources */,
+				924455C229BA42470005F82C /* AppDelegate.swift in Sources */,
+				924455C429BA42470005F82C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		924455D029BA42480005F82C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				924455D929BA42480005F82C /* Split_Bill_CalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		924455DA29BA42480005F82C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				924455E529BA42480005F82C /* Split_Bill_CalculatorUITestsLaunchTests.swift in Sources */,
+				924455E329BA42480005F82C /* Split_Bill_CalculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		924455D629BA42480005F82C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 924455BD29BA42460005F82C /* Split Bill Calculator */;
+			targetProxy = 924455D529BA42480005F82C /* PBXContainerItemProxy */;
+		};
+		924455E029BA42480005F82C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 924455BD29BA42460005F82C /* Split Bill Calculator */;
+			targetProxy = 924455DF29BA42480005F82C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		924455C729BA42470005F82C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				924455C829BA42470005F82C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		924455CC29BA42480005F82C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				924455CD29BA42480005F82C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		924455E629BA42480005F82C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		924455E729BA42480005F82C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		924455E929BA42480005F82C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7D22PYJK54;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Split Bill Calculator/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Myself.Split-Bill-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		924455EA29BA42480005F82C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7D22PYJK54;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Split Bill Calculator/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Myself.Split-Bill-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		924455EC29BA42480005F82C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7D22PYJK54;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Myself.Split-Bill-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Split Bill Calculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Split Bill Calculator";
+			};
+			name = Debug;
+		};
+		924455ED29BA42480005F82C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7D22PYJK54;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Myself.Split-Bill-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Split Bill Calculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Split Bill Calculator";
+			};
+			name = Release;
+		};
+		924455EF29BA42480005F82C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7D22PYJK54;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Myself.Split-Bill-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Split Bill Calculator";
+			};
+			name = Debug;
+		};
+		924455F029BA42480005F82C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7D22PYJK54;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Myself.Split-Bill-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Split Bill Calculator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		924455B929BA42460005F82C /* Build configuration list for PBXProject "Split Bill Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				924455E629BA42480005F82C /* Debug */,
+				924455E729BA42480005F82C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		924455E829BA42480005F82C /* Build configuration list for PBXNativeTarget "Split Bill Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				924455E929BA42480005F82C /* Debug */,
+				924455EA29BA42480005F82C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		924455EB29BA42480005F82C /* Build configuration list for PBXNativeTarget "Split Bill CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				924455EC29BA42480005F82C /* Debug */,
+				924455ED29BA42480005F82C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		924455EE29BA42480005F82C /* Build configuration list for PBXNativeTarget "Split Bill CalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				924455EF29BA42480005F82C /* Debug */,
+				924455F029BA42480005F82C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 924455B629BA42460005F82C /* Project object */;
+}
